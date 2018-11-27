@@ -1,0 +1,14 @@
+sudo apt install vim
+"how to install gmp"
+sudo apt-get install m4
+./configure
+make
+make install
+make check
+
+"how to install pbc"
+sudo apt-get install flex
+sudo apt-get install bison
+./configure
+make
+make install
